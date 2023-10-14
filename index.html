@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+    background-image: url('https://cutewallpaper.org/21/white-background-gif/%E2%96%B7-Abstract-Polygonal-Geometric-Background-white-Silver-.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    padding: 12%;
+
+}
+
+    
+    button {
+        padding: 10px 10px;
+        border: 10px solid #66a31f;
+        background: #8BC34A;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 20px;
+    }
+    h2{
+        color:burlywood;
+       
+        font-size: 40px;
+        font-size: 50px;
+  color: rgb(31, 163, 196);
+  font-family:Phantomsans, sans-serif;
+  font-style: italic;
+    }
+    input{
+        width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Web App</title>
+</head>
+<body>
+    <main>
+        <center>
+             <section id="add-section">
+            <h2>Add New Item</h2>
+            <form id="add-form">
+                <input type="text" id="new-item" placeholder="Enter a new item">
+                <button id="add-button"type="submit">Add</button>
+            </form>
+        </section>
+        <section id="data-section">
+            <h2>Data List</h2>
+            <ul id="data-list"></ul>
+        </section>
+        <p id="error-message" class="hidden"></p>
+
+        </center>
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
